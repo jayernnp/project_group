@@ -13,7 +13,7 @@ with cash_on_hand.open(mode='r', encoding='UTF-8') as file:
     for row in reader:
         # Append the value in the first column (index 0, day) and the second column (index 1, cash on hand) to the cashonhand list.
         cashonhand.append([row[0],row[1]])
-        
+
 # Define a function to calculate the cash on hand difference
 def cash_calc():
     """
@@ -23,7 +23,7 @@ def cash_calc():
     # Creates an empty list to store the day numbers from the cashonhand list
     firstdaylist=cashonhand[0]
     # Defines the variable used to count the day and the first day number
-    day=float(firstdaylist[0])-1
+    day=float(firstdaylist[0])
 
     # Defines the variables used to store the previous COH and deficit count
     previous_cash=0
