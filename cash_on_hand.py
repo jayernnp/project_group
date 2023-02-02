@@ -98,4 +98,3 @@ def cash_calc():
         # After every deficit_data has been placed into the calc_result variable, the program will return the calc_result.
         return f'{calc_result}'
 
-#darrel is gay
