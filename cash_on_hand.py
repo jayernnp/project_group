@@ -3,7 +3,6 @@ import csv
 
 # to create file from file path
 cash_on_hand=Path.cwd()/'project_group'/'csv_reports'/'cash-on-hand-usd.csv'
-# darrel try
 # read the cash on hand file
 with cash_on_hand.open(mode='r', encoding='UTF-8') as file:
     reader=csv.reader(file)
@@ -14,7 +13,7 @@ with cash_on_hand.open(mode='r', encoding='UTF-8') as file:
     for row in reader:
         # Append the value in the first column (index 0, day) and the second column (index 1, cash on hand) to the cashonhand list.
         cashonhand.append([row[0],row[1]])
-
+        
 # Define a function to calculate the cash on hand difference
 def cash_calc():
     """
