@@ -9,7 +9,6 @@ with overhead.open(mode='r', encoding='UTF-8') as file:
     reader=csv.reader(file)
     next(reader) #skip the header
 
-    # Define an empty list to store the overhead values and categories
     overheadlist=[]
 
     # Loop through each row in the reader 
