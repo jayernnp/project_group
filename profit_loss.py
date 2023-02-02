@@ -78,7 +78,7 @@ def profit_calc():
                 # it with the current_profit data so that the next set of data will be compared to this set of data.
                 previous_profit=0
                 previous_profit+=current_profit
-
+  
 
     # After every set of data in the net_profit list has been analysed,
     # the program will go through this if condition to decide what to show to the user.
