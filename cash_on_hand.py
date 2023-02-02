@@ -13,7 +13,7 @@ with cash_on_hand.open(mode='r', encoding='UTF-8') as file:
     for row in reader:
         # Append the value in the first column (index 0, day) and the second column (index 1, cash on hand) to the cashonhand list.
         cashonhand.append([row[0],row[1]])
-
+# trial run
 # Define a function to calculate the cash on hand difference
 def cash_calc():
     """
