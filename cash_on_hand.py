@@ -38,7 +38,7 @@ def cash_calc():
         # Increases the day count by 1 for every data
         day+=1
 
-        # Stores the current cash on hand data in the current_cash variable.
+        # Converts the data to a float value and stores the current cash on hand data in the current_cash variable.
         current_cash=float(data[1])
 
         # Creates the if condition that if the day number is the same as the first day,
